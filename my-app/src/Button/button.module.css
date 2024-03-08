@@ -1,0 +1,17 @@
+.button {
+    font-family: var(--fontf);
+    border: none;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: 4px 4px 12px 5px #8686869d;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.button:hover {
+    box-shadow: none;
+}
